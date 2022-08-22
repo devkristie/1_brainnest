@@ -3,11 +3,29 @@
     src: url(fonts/Roboto-Regular.ttf); format: ('truetype');
 }
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body {
-    margin: 0;
     overflow-x: hidden !important;
+}
+.top-navigation-bar {
+    background-color: #1F2937;
+    color: #FFF;
+}
+.first-container {
+    background-color: #1F2937;
+    color: #FFF;
+}
+.third-container {
+    background-color: #E5E7EB;
+    color: #000;
+}
+.fourth-container {
+    display: inline-block;
+    background-color: #3882F6;
+    color: #FFF;
 }
 footer {
     padding: 10px;
