@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'RobotoExtraBold';
-    src: url(fonts/Roboto-Bold.ttf); format: ('truetype');
+    font-family: 'Roboto Regular';
+    src: url(fonts/Roboto-Regular.ttf); format: ('truetype');
 }
 * {
     box-sizing: border-box;
@@ -8,4 +8,12 @@
 body {
     margin: 0;
     overflow-x: hidden !important;
+}
+footer {
+    padding: 10px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto Regular', Arial, sans-serif;
 }
