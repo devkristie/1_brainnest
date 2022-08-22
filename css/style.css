@@ -2,6 +2,10 @@
     font-family: 'Roboto Regular';
     src: url(fonts/Roboto-Regular.ttf); format: ('truetype');
 }
+@font-face {
+    font-family: 'Roboto Light Italic';
+    src: url(fonts/Roboto-LightItalic.ttf); format: ('truetype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -41,14 +45,17 @@ body {
 .third-container {
     background-color: #E5E7EB;
     color: #000;
+    
 }
 blockquote {
     padding: 10% 13%;
     color: #1F2937;
     font-size: 36px;
+    font-family: 'Roboto Light Italic';
 }
 .blockquote-author {
     text-align: right;
+    padding-right: 5%;
 }
 .fourth-container {
     display: inline-block;
