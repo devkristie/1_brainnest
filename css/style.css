@@ -15,7 +15,7 @@ body {
     overflow-x: hidden !important;
 }
 .top-navigation-bar {
-    background-color: #FF0000 /*#1F2937*/;
+    background-color: #FF0000 /**REMEMBER TO DELETE THIS*/ /*#1F2937*/;
 }
 .top-navigation-bar {
     display: flex;
@@ -48,7 +48,7 @@ body {
     padding: 0 45px 0 0;
     width: 560px;
 
-    background-color: orange;
+    background-color: orange; /**REMEMBER TO DELETE THIS*/
 }
 .first-container-title {
     font-size: 48px;
@@ -56,21 +56,22 @@ body {
     font-weight: bold;
 
     width: 400px;
-    background-color: #3882F6;
+    background-color: #3882F6; /**REMEMBER TO DELETE THIS*/
 }
 .first-container-text {
     font-size: 18px;
     color: #E5E7EB;
 
     width: 500px;
-    background-color: #FF0000;
+    background-color: #FF0000; /**REMEMBER TO DELETE THIS*/
 }
 .top-signup-button {
     margin-top: 10px;
-    padding: 5px 20px;
+    padding: 5px 30px;
     border: none;    
     border-radius: 5px;
     color: #F9FAF8;
+    font-size: 18px;
     background-color: #3882F6;
 }
 .img-placeholder-container {
@@ -92,16 +93,14 @@ body {
     text-align: center;
     font-weight: bold;
 }
-
-
 .small-container-block {
     display: flex;
     justify-content: center;
 
-    background-color: #FF0000;
+    background-color: #FF0000; /**REMEMBER TO DELETE THIS*/
 }
 .small-container {
-    background-color: aquamarine;
+    background-color: aquamarine; /**REMEMBER TO DELETE THIS*/
 
     margin: 0 30px;    
     width: 150px;
@@ -118,14 +117,12 @@ body {
     text-align: center;
     font-size: 18px;
 }
-
-
 .third-container {
     background-color: #E5E7EB;
     color: #000;
 }
 .blockquote-text {
-    padding: 0 25%; /*change % to px*/
+    padding: 0 25%;
     padding-top: 100px;
     color: #1F2937;
     font-size: 36px;    
@@ -135,7 +132,7 @@ span.blockquote-author {
     font-size: 20px;
 }
 .blockquote-author {
-    padding-right: 5%; /*change % to px*/   
+    padding-right: 5%;  
     padding-bottom: 90px;
     display: block;
     text-align: right;
@@ -144,27 +141,35 @@ span.blockquote-author {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 75px 12%; /*change % to px*/
-    padding: 20px 40px;
-    width: 75%;
+    margin: 75px 15vw;
+    padding: 20px 50px;
+    width: 70%;
+    height: 125px;
     background-color: #3882F6;
     border-radius: 20px;
-    color: #FFF;
+    color: #E5E7EB;
+}
+.fourth-container-text h3 {
+    font-size: 24px;
+}
+.fourth-container-text p {
+    font-size: 18px;
 }
 .bottom-signup-button {
     padding: 5px 20px;
+    font-size: 18px;
 }
 .fourth-container, .bottom-signup-button {
-    border: 2px solid #FFF;
+    border: 2px solid #F9FAF8;
     border-radius: 5px;
     color: #F9FAF8;
     background-color: #3882F6;
 }
 footer {
-    padding: 10px;
+    padding: 30px;
     background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
     font-family: "RobotoRegular";
 }
