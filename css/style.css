@@ -43,7 +43,7 @@ body {
     padding-left: 212px;
     font-size: 24px;
     color: #F9FAF8;
-    font-family: "RobotoBold";
+    font-family: "RobotoBold", Arial, sans-serif;
 }
 .top-navigation-links {
     padding-right: 191px;
@@ -53,7 +53,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    font-family: "RobotoRegular";
+    font-family: "RobotoRegular", Arial, sans-serif;
 }
 .first-container {
     padding: 100px 0;    
@@ -70,13 +70,13 @@ body {
     width: 400px;    
     font-size: 48px;
     color: #F9FAF8;
-    font-family: "RobotoBold";
+    font-family: "RobotoBold", Arial, sans-serif;
 }
 .first-container-text {
     width: 500px;
     font-size: 18px;
     color: #E5E7EB;
-    font-family: "RobotoRegular";
+    font-family: "RobotoRegular", Arial, sans-serif;
 }
 .top-signup-button {
     margin-top: 10px;
@@ -87,7 +87,7 @@ body {
     color: #F9FAF8;
     background-color: #3882F6;
     cursor: pointer;
-    font-family: "RobotoMedium";
+    font-family: "RobotoMedium", Arial, sans-serif;
 }
 .img-placeholder-container {
     width: 550px;    
@@ -99,14 +99,14 @@ body {
 .placeholder-text {
     font-size: 18px;    
     color: #E5E7EB;
-    font-family: "RobotoRegular";
+    font-family: "RobotoRegular", Arial, sans-serif;
 }
 .second-container h2 {
     padding: 30px 0;
     font-size: 36px;
     color: #1F2937;
     text-align: center;
-    font-family: "RobotoBold";
+    font-family: "RobotoBold", Arial, sans-serif;
 }
 .small-container-block {
     display: flex;
@@ -125,7 +125,7 @@ body {
     height: 150px;
     text-align: center;
     font-size: 18px;
-    font-family: "RobotoLight";
+    font-family: "RobotoLight", Arial, sans-serif;
 }
 .third-container {
     background-color: #E5E7EB;
@@ -136,7 +136,7 @@ body {
     padding-top: 100px;
     font-size: 36px;       
     color: #1F2937;
-    font-family: "RobotoLightItalic"; 
+    font-family: "RobotoLightItalic", Arial, sans-serif; 
 }
 .blockquote-author {
     padding-right: 5%;  
@@ -144,7 +144,7 @@ body {
     display: block;
     text-align: right;
     font-size: 20px;
-    font-family: "RobotoBold"; 
+    font-family: "RobotoBold", Arial, sans-serif; 
 }
 .fourth-container {
     margin: 75px 15vw;
@@ -160,11 +160,11 @@ body {
 }
 .fourth-container-text h3 {
     font-size: 24px;
-    font-family: "RobotoBold";
+    font-family: "RobotoBold", Arial, sans-serif;
 }
 .fourth-container-text p {
     font-size: 18px;
-    font-family: "RobotoLight";
+    font-family: "RobotoLight", Arial, sans-serif;
 }
 .bottom-signup-button {
     padding: 5px 20px;
@@ -176,7 +176,7 @@ body {
     background-color: #3882F6;    
     border: 2px solid #F9FAF8;
     border-radius: 5px;
-    font-family: "RobotoMedium";
+    font-family: "RobotoMedium", Arial, sans-serif;
 }
 footer {
     padding: 30px;
@@ -184,5 +184,5 @@ footer {
     color: #F9FAF8;
     background-color: #1F2937;
     text-align: center;
-    font-family: "RobotoRegular";
+    font-family: "RobotoRegular", Arial, sans-serif;
 }
