@@ -95,31 +95,38 @@ body {
 
 
 .small-container-block {
+    display: flex;
+    justify-content: center;
+
     background-color: #FF0000;
 }
 .small-container {
     background-color: aquamarine;
-    width: 100px;
-    height: 100px;
+
+    margin: 0 30px;    
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
 .small-container-text {
     background-color: #777;
-    display: block;
-    width: 100px;
-    height: 100px;
+
+    margin: 0 30px; 
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
 }
 
 
 .third-container {
     background-color: #E5E7EB;
     color: #000;
-    
 }
 .blockquote-text {
     padding: 0 25%; /*change % to px*/
-    padding-top: 7%; /*change % to px*/
+    padding-top: 100px;
     color: #1F2937;
     font-size: 36px;    
     font-family: "RobotoLightItalic"; 
@@ -129,12 +136,15 @@ span.blockquote-author {
 }
 .blockquote-author {
     padding-right: 5%; /*change % to px*/   
-    padding-bottom: 10%; /*change % to px*/
+    padding-bottom: 90px;
     display: block;
     text-align: right;
 }
 .fourth-container {
-    margin: 5% 12%; /*change % to px*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px 12%; /*change % to px*/
     padding: 20px 40px;
     width: 75%;
     background-color: #3882F6;
