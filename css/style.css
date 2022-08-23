@@ -120,11 +120,10 @@ body {
     border-radius: 10px;
 }
 .small-container-text {
-    margin: 10px 40px 0; 
+    margin: 10px 40px 30px; 
     width: 150px;
     height: 150px;
     text-align: center;
-    line-height: 17px;
     font-size: 18px;
     font-family: "RobotoLight";
 }
