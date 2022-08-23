@@ -20,31 +20,58 @@ body {
 .top-navigation-bar {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .header-logo {
+    padding-right: 400px;
     font-size: 24px;
     color: #F9FAF8;
 }
 .top-navigation-links a {
+    padding: 0px 20px;
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 .first-container {
-    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
     background-color: #1F2937;
     color: #F9FAF8;
 }
+.first-container-wrapper {
+    padding-right: 40px;
+    margin-right: 30px;
+    width: 400px;
+}
+.first-container-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.first-container-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.top-signup-button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: none;    
+    border-radius: 5px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
 .img-placeholder-container {
-    display: inline-block;
+    margin-left: 30px;
     width: 500px;
-    height: 250px;
+    height: 200px;
     background-color: #6D747D;
 }
 .placeholder-text {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 .second-container h2 {
     padding: 30px 0;
