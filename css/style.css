@@ -155,7 +155,7 @@ body {
     align-items: center;
     width: 70%;
     height: 150px;
-    border-radius: 20px;    
+    border-radius: 8px;    
     background-color: #3882F6;
     color: #E5E7EB;
 }
@@ -172,7 +172,7 @@ body {
     font-size: 18px;
     cursor: pointer;
 }
-.fourth-container, .bottom-signup-button {
+.bottom-signup-button {
     color: #F9FAF8;
     background-color: #3882F6;    
     border: 2px solid #F9FAF8;
