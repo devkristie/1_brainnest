@@ -40,13 +40,13 @@ body {
     align-items: center;
 }
 .header-logo {
-    padding-left: 230px;
+    padding-left: 210px;
     font-size: 24px;
     color: #F9FAF8;
     font-family: "RobotoBold";
 }
 .top-navigation-links {
-    padding-right: 230px;
+    padding-right: 210px;
 }
 .top-navigation-links a {
     padding: 0 20px;
