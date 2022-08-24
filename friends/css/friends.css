@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @font-face {
     font-family: 'friends';
     src: url(fonts/GABRWFFR.TTF); format: ("truetype");
@@ -24,8 +25,8 @@ body {
 }
 .top-navigation-bar a {
     color: #070707;
-    font-size: 1.5rem;
-    font-family: 'friends';
+    font-size: 1.5em;
+    font-family: 'friends', Arial, sans-serif;
     text-decoration: none;
 }
 .landing-section {
@@ -35,27 +36,46 @@ body {
     flex-direction: column;
 }
 .landing-section {
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat', cursive, sans-serif;
+}
+.first-container {
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background: #FF0000;
 }
 .second-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    background-color: yellow; /**Dont' forget to delete*/
+    background-color: #F7CF3C;
 }
 h2 {
-    margin: 30px 0;
-    font-size: 3rem;
+    margin: 30px 0 30px 0;
+    font-size: 3em;
+    font-family: 'Russo One', sans-serif;
     text-align: center;
 }
 .information-container, .information-container-text {
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-
-    background-color: #FF0000; /**Dont' forget to delete*/
+    background-color: #FC484C;
+}
+.image-container {
+    margin: 30px 0;
 }
 h3 {
+    margin: 30px;
+    font-size: 2em;
+    font-family: 'friends', Arial, sans-serif;
     text-align: center;
+}
+p {
+    font-size: 1.2em;
+    font-family: Arial, Verdana, sans-serif;
 }
