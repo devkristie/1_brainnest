@@ -93,6 +93,7 @@ p {
     padding: 30px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
     font-size: 1em;
     color: #070707;
     background-color: #C7C7C7;    
