@@ -86,6 +86,11 @@ p {
     font-size: 1.2em;
     font-family: Arial, Verdana, sans-serif;
 }
+q {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial, Verdana, sans-serif;
+}
 .image-container {
     margin: 30px 0;
 }
