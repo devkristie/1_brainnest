@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 @font-face {
     font-family: "SedgwickAveDisplay Regular";
     src: url(fonts/SedgwickAveDisplay-Regular.ttf); format: ("truetype");
@@ -22,28 +24,34 @@ body {
     position: absolute;      
     font-size: 5em;
     color: #E0A7F4;
-    font-family: "SedgwickAveDisplay Regular", Cursive, serif;
-}
-.first-section {
-    background-color: aquamarine;
+    font-family: "SedgwickAveDisplay Regular", cursive, serif;
 }
 h1 {
     padding: 30px 0;
     text-align: center;
-    background-color: yellow;
+    font-size: 3rem;
+    font-family: 'Rubik Dirt', cursive;
+    background-color: #F9F5DE;
 }
 .emeli-photo {
     display: flex;
     align-items: center;
 }
+.emeli-photo img {
+    border: 8px solid #000;
+}
 .emeli-information {
-    /*padding: 9% 50px;*/
+    padding: 30px;
     width: 50%;
 }
 .emeli-information p {
-    background-color: red;
+    padding: 30px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #D57078;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     .emeli-photo {
         margin-top: 50px;
         display: flex;
