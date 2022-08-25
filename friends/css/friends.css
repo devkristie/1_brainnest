@@ -13,8 +13,8 @@ body {
     overflow-x: hidden !important;
 }
 .top-navigation-bar {
-    display: flex;
-    justify-content: space-evenly;
+    display: flex;  
+    justify-content: space-evenly;       
 }
 @media only screen and (max-width: 800px) {
     .top-navigation-bar {
