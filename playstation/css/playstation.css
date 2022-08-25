@@ -6,6 +6,28 @@
 body {
     overflow-x: hidden !important;
 }
+.top-navigation-bar {
+    position: fixed;
+}
+.top-navigation-bar, a {
+    width: 100%;       
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    text-decoration: none;
+}
 .background-image, img {
     height: 100vh;
+}
+.green {
+    color: #05E022;
+}
+.red {
+    color: #F70525;
+}
+.blue {
+    color: #01D2FA;
+}
+.pink {
+    color: #FE29A3;
 }
