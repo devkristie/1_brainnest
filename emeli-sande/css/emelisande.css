@@ -104,3 +104,24 @@ h3 {
     align-items: center;
     background-color: #71B7A3;
 }
+.bottom-navigation {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1em;
+    color: #070707;
+    background-color: #F9F5DE;    
+}
+.bottom-navigation p {
+    font-size: 1.2em;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: bold;
+}
+.bottom-navigation a {
+    color: #070707;
+    font-size: 1.2em;
+    font-family: 'Poppins', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
