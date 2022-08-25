@@ -6,3 +6,6 @@
 body {
     overflow-x: hidden !important;
 }
+.background-image, img {
+    height: 100vh;
+}
