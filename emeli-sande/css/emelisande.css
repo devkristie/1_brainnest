@@ -89,7 +89,7 @@ h3 {
     }
 }
 .song-list-title {
-    width: 300px;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -98,7 +98,7 @@ h3 {
     background-color: #D57078;
 }
 .song-list {
-    width: 300px;
+    width: 100%;
     height: 300px;
     display: flex;
     align-items: center;
