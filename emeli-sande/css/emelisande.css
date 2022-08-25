@@ -63,3 +63,44 @@ h1 {
         width: 100%;
     }    
 }
+.second-container {
+    background-color: #34393F;
+}
+h3 {
+    padding: 30px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-family: 'Rubik Dirt', cursive;
+    background-color: #F9F5DE;
+    text-align: center;
+}
+.song-list-container {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #FFF;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+@media only screen and (max-width: 681px) {
+    .song-list-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.song-list-title {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: #D57078;
+}
+.song-list {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #71B7A3;
+}
