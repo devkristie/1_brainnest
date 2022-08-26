@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Playstation";
+    src: url(./fonts/PsBold-2Oy2w.ttf); format: ("truetype");
+}
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +32,7 @@ body {
     justify-content: center;
     font-size: 1.2em;
     text-decoration: none;
+    font-weight: bold;
     background-color: aqua;
 }
 .green {
@@ -119,7 +124,6 @@ h1 {
 .bottom-navigation p {
     flex: 1;
     font-size: 1.2em;
-    font-family: 'Poppins', Arial, sans-serif;
     font-weight: bold;
 }
 .bottom-navigation a {
@@ -128,7 +132,6 @@ h1 {
     background-color: #F9F5DE;
     color: #070707;
     font-size: 1.2em;
-    font-family: 'Poppins', Arial, sans-serif;
     text-decoration: none;
     font-weight: bold;
 }
