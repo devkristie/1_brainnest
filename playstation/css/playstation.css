@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 @font-face {
     font-family: "Playstation";
     src: url(./fonts/PsBold-2Oy2w.ttf); format: ("truetype");
@@ -29,11 +31,13 @@ body {
 .top-navigation-bar, a {
     width: 100%;       
     display: flex;
-    justify-content: center;
-    font-size: 1.2em;
+    justify-content: space-evenly;
+    font-size: 1em;
     text-decoration: none;
+    text-align: center;
     font-weight: bold;
-    background-color: aqua;
+    font-family: "Playstation", Arial, sans-serif;
+    background-color: #000;
 }
 .green {
     color: #15B591;
@@ -61,8 +65,9 @@ section {
     padding-bottom: 30px;
 }
 h1 {
+    padding: 30px 0;    
     color: #FFF;
-    padding: 30px 0;
+    font-family: "Playstation", Arial, sans-serif;
     text-align: center;
 }
 .container {
@@ -84,7 +89,11 @@ h1 {
     padding: 10px;
     font-size: 1.2em;
     color: #FFF;
+    font-family: 'Poppins', sans-serif;
     background-color: #003791;
+}
+.game-title {
+    font-family: 'Poppins', sans-serif;
 }
 .image {
     flex: 1;
@@ -95,13 +104,13 @@ h1 {
 @media only screen and (max-width: 900px) {
     #console, #top-games {
         position: absolute;
-        margin-top: -230px;
+        margin-top: -238px;
     }
 }
 @media only screen and (min-width: 900px) {
     #console, #top-games {
         position: absolute;
-        margin-top: -60px;
+        margin-top: -58px;
     }
 }   
 @media only screen and (max-width: 900px) {
@@ -117,9 +126,9 @@ h1 {
     padding: 30px;
     display: flex;
     text-align: center;
-    font-size: 1em;
-    color: #070707;
-    background-color: #F9F5DE;    
+    font-family: Arial;
+    color: #FFF;
+    background-color: #000;    
 }
 .bottom-navigation p {
     flex: 1;
@@ -129,9 +138,10 @@ h1 {
 .bottom-navigation a {
     flex: 1;
     align-items: center;
-    background-color: #F9F5DE;
-    color: #070707;
+    background-color: #000;
+    color: #FFF;
     font-size: 1.2em;
+    font-family: Arial, sans-serif;
     text-decoration: none;
     font-weight: bold;
 }
