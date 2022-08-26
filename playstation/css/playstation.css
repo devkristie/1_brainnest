@@ -6,28 +6,88 @@
 body {
     overflow-x: hidden !important;
 }
+.landing-page-image {
+    height: 100vh;
+    background: url("../images/playstation-background.jpg") no-repeat fixed;
+    background-size: contain;
+    background-position: top center;
+    background-color: yellow;
+}
+@media only screen and (max-width: 900px) {
+    .landing-page-image {
+        background-position: center center;
+    }
+}
 .top-navigation-bar {
     position: fixed;
 }
 .top-navigation-bar, a {
     width: 100%;       
     display: flex;
-    justify-content: space-evenly;
-    font-size: 1.5em;
+    justify-content: center;
+    font-size: 1.2em;
     text-decoration: none;
-}
-.background-image, img {
-    height: 100vh;
+    background-color: aqua;
 }
 .green {
-    color: #05E022;
+    color: #15B591;
 }
 .red {
-    color: #F70525;
+    color: #F2615E;
 }
 .blue {
-    color: #01D2FA;
+    color: #8B98C5;
 }
 .pink {
-    color: #FE29A3;
+    color: #CE78B7;
+}
+@media only screen and (max-width: 900px) {
+    .top-navigation-bar {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+    }
+} 
+h1 {
+    padding: 30px 0;
+    text-align: center;
+}
+.console-container {
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    display: flex;    
+    align-items: center;
+    border: 1px solid #000;    
+}
+.console-information {
+    flex: 1;
+    text-align: center;
+}
+.console-information p {
+    margin: 0 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #FFF;
+    background-color: #003791;
+}
+.console-image {
+    flex: 1;
+}
+@media only screen and (max-width: 900px) {
+    #console {
+        position: absolute;
+        margin-top: -200px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    #console {
+        position: absolute;
+        margin-top: -27px;
+    }
+}   
+@media only screen and (max-width: 900px) {
+    .console-container {
+        padding: 40px 5px 5px 5px;
+        flex-direction: column;
+    }
 }
