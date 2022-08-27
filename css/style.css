@@ -18,6 +18,9 @@
     font-family: "RobotoLight";
     src: url(fonts/Roboto-Light.ttf); format: ("truetype");
 }
+:root {
+    --color: #1F2937;
+}
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    background-color: var(--color);
 }
 .header-logo {
     padding-left: 230px;
@@ -53,7 +56,7 @@ body {
     padding: 100px 0 120px;    
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: var(--color);
     color: #F9FAF8;
 }
 .first-container-wrapper {
