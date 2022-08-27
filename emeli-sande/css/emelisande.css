@@ -125,3 +125,13 @@ h3 {
     text-decoration: none;
     font-weight: bold;
 }
+@media only screen and (max-width: 800px) {
+    .bottom-navigation {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    }
+    .bottom-navigation a {
+        line-height: 40px;
+    }
+}
