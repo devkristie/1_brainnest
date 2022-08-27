@@ -36,13 +36,13 @@ body {
     align-items: center;
 }
 .header-logo {
-    padding-left: 220px;
+    padding-left: 230px;
     font-size: 24px;
     color: #F9FAF8;
     font-family: "RobotoBold", Arial, sans-serif;
 }
 .top-navigation-links {
-    padding-right: 200px;
+    padding-right: 210px;
 }
 .top-navigation-links a {
     padding: 0 20px;
