@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body {
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 .top-navigation-bar {
     display: flex;  
