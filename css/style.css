@@ -128,19 +128,21 @@ body {
     font-family: "RobotoRegular", Arial, sans-serif;
 }
 .third-container {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
     color: #000;
 }
 .blockquote-text {
-    padding: 0 25%;
-    padding-top: 100px;
+    padding-top: 90px;
+    width: 790px;
     font-size: 36px;       
     color: #1F2937;
     font-family: "RobotoLightItalic", Arial, sans-serif; 
 }
 .blockquote-author {
     padding-right: 5%;  
-    padding-bottom: 90px;
+    padding-bottom: 80px;
     display: block;
     text-align: right;
     font-size: 20px;
