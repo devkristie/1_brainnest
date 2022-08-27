@@ -27,13 +27,11 @@ body {
     overflow-x: hidden;
 }
 .top-navigation-bar {
-    background-color: #1F2937;
-}
-.top-navigation-bar {
     padding-top: 20px;    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
 }
 .header-logo {
     padding-left: 230px;
