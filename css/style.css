@@ -137,7 +137,7 @@ body {
     font-family: "RobotoLightItalic", Arial, sans-serif; 
 }
 .blockquote-author {
-    padding-right: 30px;  
+    padding-right: 25px;  
     padding-bottom: 80px;
     display: block;
     text-align: right;
@@ -154,7 +154,7 @@ body {
     height: 150px;
     border-radius: 8px;    
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 .fourth-container-text h3 {
     font-size: 24px;
